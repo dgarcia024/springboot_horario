@@ -1,0 +1,212 @@
+bitacora de cambios en donantes
+bitacora de cambios en cofiguraciones de cuenta
+bitacora de historial en el resto del sistema
+
+
+por decisiones de comite se maneja
+
+
+catalogo de inventarios
+  los insumos se indexa por codigo especifico (numero de hoja)
+ 
+* manejan catalogo con la descripcion y no con la marca
+
+base de access en cndr
+
+van cambiando los codigos de referencias y marcas 
+Se asigno un codigo unico para agrupar un tipo de producto
+
+50/20 - punta de 10 microlitros(catalogos)
+
+Agregar una nota como referencia al usuario
+
+
+catalogo de codigo unico de inventario - no de codigo de caja:
+
+pipetas de 10ml
+
+agregar tags en cada detalle de equis insumo
+
+
+Solo el administrador puede realizar cambios en los codigos unicos
+
+
+Se prevee proyectar
+
+
+Los solicitantes podran revisar la existencia de equis insumo en bodega? (requisas) : (sin respuesta)
+Los solicitantes podran realizar compras - flujo que conlleva a los donantes : (si)
+
+El unico que puede revisar la existencia en bodega es yansel
+
+
+En la solicitud los donantes pueden identificar a quien se le suministrará el insumo? : (deberian)
+
+
+El solicitante puede realizar la consulta de insumo nunca antes contemplado en sistema? : (los usuarios deben crear un mensaje para pedir un nuevo insumo con respuesta de 
+autorizacion del administrador. Ellos esperaran una respuesta por notificacion)
+
+
+Dentro de las solicitud
+Compras locales
+Compras fuera del pais
+
+
+Manejar como lo hace el administrador (Don Ramon)
+
+pedido 0125 - compra interna
+pedido 0126 - compra externa
+
+3001 usd
+3002 - x
+3003 - local
+
+por cada numero deberia haber un adjetivo
+
+
+numero de solicitudes - externas y locales
+
+
+
+las entregas se manejan de manera distinta
+
+
+codigo diferente para solicitudes internacionales
+
+
+numero de solicitud externas
+numero de requisas local 
+mantener la parte fisica
+
+codigos iguales pero nomenclatura distinta
+
+la cantidad de insumo a entregar se dividen por insumos o fondos
+
+
+Presentaciones de unidades o paquetes - no por cajas
+
+6 cajas de 1000 und
+2 a dengue
+2 a sica
+2 a ...
+
+
+
+que tanto se esta gastando en cada proyecto
+
+
+presentaciones: paquetes
+
+
+que el sistema te deje escoger mas de un estudio al momento solicitud / de entregar
+
+
+La forma en que se va a registrar la informacion en el sistema. No por caja sino por paquetes
+
+
+
+por volumen: litros, gramos
+
+presentaciones:
+Caja
+paquetes
+rollo
+bolsa
+frasco
+
+
+desglose: cuanto tiene x presentacion
+
+
+pedir por paquetes - 10, 20ml
+
+
+por paquete que soliciten en la unidad mas pequeña
+
+agregar nuevos tipo de presentaciones
+viales
+
+
+
+Don Ramon no puede modificar las distintas solicitudes
+
+
+Nota adicional por cada producto (indicaciones en paquete)
+
+
+Cantidad recibida, marcar con un check en si, caso contrario, especificar.
+
+
+Cuando se hace una requisa, se pide un insumo de fuera pero en existencia
+
+Solicitud UMICH
+
+13/02/2024
+
+cambios solicitados por bratt
+1) pedirle a juan carlos la separacion por estudio y no por proyecto
+
+2) numero de catalogo de producto???? (no existe)
+
+3) agregar numero de catalogo, hay diferentes medidas de tubo
+
+4) cuando se agregue una nueva solicitud, desplegar en una lista numero de catalogos. Estos numeros describen un modelo de articulo(francisco se encarga de clasficar) Con eso es mas facil de comprar
+
+Por ejemplo: 
+
+5) el primer select, nombre general del paquete
+el segundo seria de las unidades que solicitan en la presentacion
+el tercero seria de esa presentacion con esas unidades que requiere
+el ultimo seria el total(operaciones aritmeticas)
+
+5) agregar una exportacion a excel en las solicitudes
+
+6) desplegable "pedido clasificacion" pasarlo a la pantalla solicitud inicial
+
+
+----- En compras (pantalla que usa bratt) ------
+Esta pantalla es el sustituto del formato "formato de seguimiento"
+7) Codigo de compra
+8) El necesita una pantalla para armar la paleta, no necesita la pantalla actual por que ocupa google sheets
+
+
+Ellos pueden poner la cantidad por paleta
+
+Si es posible cambiar de la orden creada, el estado.
+Por cada insumo tenga un estado y ellos puedan cambiar "pedido" - "enviado"
+
+
+Anotar para la aplicacion movil
+
+Que en la pantalla de compras>insumos logre ver la lista del pedido por item y pueda cambiar el estado de cada uno entre "comprado" y "recibido" en bodega. CUANDO EL ENVIE LA PALETA, QUE EL ESTADO DE CADA ITEM CAMBIE A "ENVIADO"
+
+
+Palette number 
+
+Cuando el tenga la lista de pedidos, vaya actualizando el estado de cada item por cada registro de pedido y luego al presionar un boton presentar un popup para agregar un numero de paleta a enviar y despues deberia crear un reporte de todo lo incluido
+
+validar los estados comprado, recibido y enviado.
+
+Y el pedido no puede ser enviado hasta que tenga todos los insumos.
+
+
+Yansel tiene que ver una lista similar para dar check de los recibidos
+en cada item al dar check pueda especificar la cantidad real que recibe y el estado @completo o @incompleto
+
+
+Ellos necesitan ver el historial de inventarios para analisis futuros
+
+Inventarios por estudios
+
+
+Ellos envian mas cosas, quieren agregar insumos extras al pedido(paleta)
+
+Ellos ingresaran de manera manual los insumos extras a la paleta
+
+Al agregar inventario de paleta, pueda especificar la cantidad disponible agregar y especificar por que no se completo el total de ese insumo
+
+en la pantalla de Juan Carlos
+que el pueda agregar el precio por cada insumo
+que el pueda actualizar la opcion del precio
+que pueda actualizar cantidades
+que pueda actualizar el precio de compra (por 10 cajas, el precio total pueda digitarse de lo que realmente se uso de dinero)
